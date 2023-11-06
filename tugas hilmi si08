@@ -1,0 +1,137 @@
+<html lang="ID">
+    <head>
+        <title>Burung Perkutut Jawa</title>
+        <meta name="description" content="Budidaya Perkutut Jawa">
+        <style>
+            body{
+                background-color: beige;
+            }
+            #header{
+                text-align: justify;font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            }
+            #soekarno{
+                color: blue;
+            }
+            .gambar img{
+                width: 300px;border:  5px solid tomato ;border-radius: 50px;margin: 10px;
+            }
+            .isi{
+                text-align: justify;font-size: small;font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .jawa{
+                font-style: italic;
+            }
+            #profil h3{
+                color: rgb(8, 8, 8);text-decoration-line: underline;
+            }
+            #beternnak{
+                text-align: justify;
+            }
+            .koleksi img{
+                width: 200pxpx;background-color: rgb(140, 248, 107);margin: 10px;border: 2px solid;border-radius: 30px;
+            }
+            .promo{
+            text-align: center;background-color: aliceblue;
+            }
+            .promo h3{
+                color: red;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="header">
+            <h1>Perkutut Jawa Suara Emas Penghibur Hati</h1>
+            <blockquote>
+                Jikalau aku mendengarkan burung Perkutut
+menyanyi di pohon ditiup angin yang sepoi-sepoi
+bukan lagi aku mendengarkan burung Perkutut
+Aku mendengarkan Indonesia <br/>
+                <span id="soekarno">Soekarno - President RI I</span>
+            </blockquote>
+        </div>
+        <div>
+            <ul>
+            <li><a href="#profil">Profil</a></li>
+            <li><a href="#berternak">Budidaya</a></li>
+            <li><a href="#harga">Harga</a></li>
+            </ul>
+
+        </div>
+        <div class="gambar">
+            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAoHCBUVEhESERUREhISERESEhESEhESEhISGBgZGRgYGRgcIS4lHB4rIRgZJjgmLC8xNjU1GiQ7QD40Py40NTEBDAwMEA8QGhISGjQkISE0NDQ0NDQ0NDQxNDQ0NDQ0MTE0NDQ0NDQ0NDQ0NDQ0MTQ0NDQ0NDQ0NDQ0NEAxNDQ0NP/AABEIALcBEwMBIgACEQEDEQH/xAAcAAACAwEBAQEAAAAAAAAAAAACBAABAwUGBwj/xAA/EAACAgECBAUCAwYEAgsAAAABAgARAxIhBBMxQQUiUWFxMoEGQpEUI1JyobEHYoLRkvAVJDM0U2OissHS4f/EABgBAQEBAQEAAAAAAAAAAAAAAAECAAME/8QAIxEBAQACAgMBAAIDAQAAAAAAAAECERIxAyFBURNhFCJxBP/aAAwDAQACEQMRAD8A+QkwTITKkBckkuZoqSXUkylSwJJBMKNBGEWZLGEEmpo0WaqsFBN0E52hFSXphqJoFkbYsUmTLHGSYus222WIgmbOJi0uVmbGDctoBMqMItALwSYMrSh6pdwBCETBgy4Ilgw0VyjLuC0wC0Ey7gxCSCSWIslSwJdQgIMlSQqkhskYQlS50YUkqXJKSSSTFJJJBMmtscZxmJoYyjSaDSTdIsjRlDOVS1UQxBUyy0msjTFhDYwCZAZOIs8ayRRzOmJZNMmM1czFjOuLBJkEq5AZahwhBENFJIABJJAAAJJJ2AA7mCklieo8P/BHEZFD5GTCD0VgzvXuBsP1v4jWT/D3NV482Nz6OjoP1Bb+0Nzo6utvHXKaOeJeGZuHfRnRsbEWt0VceqsNmHx07xMxSzkkliIQCEBIBCAgyBYQWWBCAhayaZIcklnMklmVOyliXBlyWXJKkmZJBKMgiwwZsrTAQ1MLAcR41jec9DGsTTllE00Hl3MQZZac7G00uCTB1QWeGhpHaLZDNWaLZGnTGMBzMWMJmgGdZDIhlSSRU1WfQ/wT4EqKvEZFvKwJRW/IhHWv4iP6GvW+P+D/AMNNlZM+dTygQUQ0OYd9LNfTHYqzsTQ+fpPDYgHDaWYmzYvS/WyrGtdAXSggdyBRkZX5F4z7XQ4DhdRt9Y23U2R7f8+0R8b8bx8LmXE6rWnEC5yMpZ8hcKihUYdEa2YgXt6kPY0Lka2by71+Xr6Gqqq7xjJwiOV1omRkNKWUNQv+o2G3TYRxknxOVt+sfHfBsfFYHwuB5ltGK+ZHq0de4IsbdwSDsTPgPEYWRnxuKfG7I49HUlWH6gz9GZX82pwyqa/egah/rUbjt5hfv2nyz/ET8NlcuXjeHt8DsDmob4smwLbbFWO99QSe28vW5tGOXyvn5EsSOJQkloohgQFhiFZYhiCIUllySSTM5plSzKM6KSQSpcoLlSSTNtUghVJpgNoIawVE0UQI1M1RpkBCWFjGQ8vVMQYVyOI00LQS0EmAWhxbS3aLsYbGZn+5oe5lyNoBlGeg8K/DOXKQX/codxrpXcXXlVqrfYX6HrU9L4d4HgxseWquynJpyZBjyF1RNQZVYFQWYgBgOw7nZ3IqY2vF+HeC5s4LIhGMCzkcMuP6guzAGzZ6Ce08J/B+PBqfORmy42yeULWPGcShyxV61Laup1UNmqtNzt8QDpQ4wQMnMK41tQmMvguhd3WVVvbzBm7gK4lLmxBSKopiZScYccxeIx6CDtzEd06+V8YbYqYbp1BcsAUoUBsZyI2QF1t9GpDsSyhyfMLKliCCTqjHDsrEsWbzBWYOTrDarQuRRsXQbSLDqNR2UZYUIXGiFmcpkGNlVMa5GStqqkdleqXSCbVtQsg+GRSEZGblrdANRxaiwIF0QoJKlT1CITuMiE01rqo1/oNJ70b796FfapWTjtAJ8gCglndhjRQO5Px6TLPnXDjyZch0oivkciz9ILeUdiQvQT4/+IPH8vFveQ6cam8eEfSvWif4mo7t+lCV0nt6Dx//ABA4h308OwREdwXUWuSjQYA9V21C/XpNvw/+PF5irxuPHpYFDlRLUIeodDflPejXt3ngjBmla4x6f8feDYcOXHm4QqeG4pWdAhDIjqRqVCNtPmUgfPpQ8mJpqNVZq9WmzWrpdevvAIm22hrCWZgzRYUDEMQBDWTWSSXJMXMMoyzBM7FJcoQwIVNCBDAkAl1DbKqWFhBZoqw2wAkMLDCwtMNtKALCAhBYQWbZCBLqEBOnwfgzvRf92rEAWLc3/lsUOu5I6d4FyGE34Tw/Ll/7JGcatOromr01Ha/brPVYPCcONWelykHloXGrXlJoUh2oEgdOt77To8G/77QpLHGFZVDdWojr2oG9tvOZt6Mxee4X8JsSOa4A5nLIQGgf5mW9jtWnr3nd4PwdMTEYl0voA5iN+R6DOGY2wG/l7/pHsHCE4+UyEMS/nBUgNuVI7k3X9d44ilijowR8YOHIirrC1ROofmHXcex37lyXMXPOGyAgZiQSCWBOQ7Bhq7syg1Y7UOlRjicZIdAzBDwhwIRTaGyKNBA6ldalWJsqwJNzo4sCnJoo7oQ2xAJ3O1dN+/vK4pvrDsm5Tz/mx8SHTIjPX0hyvXYXZ6bQmRsUMpOXX5UIyDHkO+nGcmTBxGPIaG+IlHRjtp+8jL5GF8tcZKmlvJhxo7o2pQKvh8j43DLYOMjaps2MnUrFkcDN5kRdfLR1ygaaH7zHqLhaN6HHciEgLFMgAOZGChUIHMdErLiUt5WbSpKEjddN2ElbQIY9eryBCcr5ChBycnMWZiKDedNefIh01qTi8ZFVN+DxsTrBBP0ZQWOQsSqlG5lDXaaN2ouuhvqVwwYMJ/dlCqqCiilZAFVQyZEU9bwuCyEkfuaH0GdRUACkAIWXR1BCoOg1WQygVRuq32JIhllppjt4n/EnxEJgThVHmzEM/ouNHVh+rAV7K0+Z1O5+LfEhxPF5MibooGPGfVELbj2JJP3nGIjsSaDAM0qCwiwDBMIygIgIhpKAhKIM0WGICzRRJrKkhaZcNtpyzBqGRJU6kIEICQCGomqbFAQwIQWEFk7GlBYarCAmuPAzfSrN8AmTazMCEBOjh8HyN9WjGP8AzGAP2UWZ2eA/DyDSXJyEgGrIWvZRv+p+0xmNrzeDh3c1jUsR1roPk9BOnw3gLkashCJdeXzsT3odPv7T0XKDk48aIioF0KKpq1Wdtu4PyBvGWxMfr0qAK0hrI/tMuYuZwHh2JMmNVU7klmbzZCoHQHolmuld9+86aYQ+Z9A8mMHUOgORgwQCvQrv81MOEsvkCq5Bc6SATqTSFBBHVTTfe414U3/eFoq65OWVFHYKrL99zNaqQtwqAMiuwHLyfXtoOQDdNj03Zb9QNoxw2RQchcIvnxjI4BBCOAPqO4TUosCth8weB4YPg4lD9Yy5U9WAenBv/UP+GMOgOPHn0k48uFUzbgHGCbDH+UlgfS/aFKYcjtkxA9HTToOnRqFjKhHUmht/J2jL6FyaxauNIPMZ02/nQ77flb/5i+DEyrlR9DlUGRTQQF0+liw+i1UbV1ViNtgSZ0BV/Ny30BcoyaMiliaRtQphqNAHcEkSSYV6byWwWvzl9uuysT7He/jpNWyBwVyEqWR8Zd0teW7eRHofTqNg76b7ARbicnmV2DgnYhuXQ7XYBr+kLnsNbr5SgQhiHdUNgKXHdbIvpsYStYdwuQoyZCpCch8rE2uJl8icUjf+GyFA42Wi+wsx/HiNsttjYri8+ku6MmS8GVgd2ZHIRwbDKVcGiwivCKhbG+NGw5K5RRNJpHbUU0labQbZOgdGZdyRfV4WlRfKAFUaeWTywSFDjEdRGi0F43AIIl3LTnJuixYQqqdIQqqrpBOlFB1KgO1orElLFrdAgXfD/GvivI4TIUJXJlAx4yNakM9gsGArYB26/lna1/UzVS9gLBsbD+8+U/i/xHn8QwAXTjLC02D5DWtugs7AXQNg3e0jH3d11vqajzaptKKRoJK0S9o0WCS+VGQkMY5ttokcMHkTo6JNEOR4ubyZYxmdDRL5UOQ4EVSaLjjYxw1xwuTcSuiSOcuSHJtOLl4Vl6iZcqe24nw4ek4+fw6ugnXknLHThLgJP+5AE3x8ET+ZB/qv+0cbhq7SuTDmnaY/Dl6s5+y1GU4TCP8AN8l7P2qLDFCGOHNtnsagfRhf50D/APJsOIdavG9Dp5k/oNc5nLhDHD+T+m5OunElrIxP726V/wCm5sOLeqYMproGB29jtQnFRSDakg+oJBjeHiuhayQV3oNdfJE0zl7Mzb5fECj77qaVltgdv8w/2M6ODKroMiKSOjMceTIynvYQuQPcgTkvlUm9Ln5K/wD2E24fAG8yeXT+bSy6T/NZ/vL3L0qWfr0fhPEMcbotsqOQgYOhClQRSMoIFlhuOxo1UHA4x5yzgBeJZEZhtpcKQtk9VNAV2PzOJj4vJjcOMmPJQK6MmbUpv26jf3nSTi8OZSHcJkatr0BCDY0MfKTdG77CFio6GTThzM6j91kQJkIN6GUko5AF0dRBP8vazKrQoyINeHKuvJjXUxUsLZ0TvYJLAehNXcWXihumQod9Icbqyn1qwpvr0Hf41VWwqmi6xuGXmFiUskNR66fMbu6F12EC04N0a1xk8tsQ0qSSHxm1ZfYqdQobDV7iTCQQ2PIAXUDUTQGRDsH97oj5B6wfEsY1rnUNjZTqYs9JuAGAHe6Xod9I2uZftRzP/wBXUPkXbUzFMY7Uzkbix0A3NdOoGa6wAA7AKLpn2sAWTpHWh1PtvHcT8lkdzoTINWHikPO4fIjquvFmxg6XRtIIK7g/BMnAeH6H5jO5z93d2w5OHO2oI62vLO3ldbNWTOtwWPTZUEI9uQlrjYgsSWwo2jUbPnTck7jpDcjWWq4XAUpdJ5dcsbvxDYR5mCjUA+XhmuxpbUjdNr09RmB9TYLMVZshI9dWkMfSiLmQdVChRpFilW1UH2W9v0HScL8QePjEGUU7stKp3JbsST+UeveFy5GYzH2U/GPjwxqceI1kdRpofQh6t2o9QAR1B9N/nipGsxZ3bI5LO7FmY9z/AM7faUMcdo3tiFl6Jvy5OXMdsAkLTNhjk5cyoxqTTNuXIMckswsLTNRjhjHM1YrjhBJuMcMY4JpfTJGeXJMNvQ5MVxLPwonTuZOlytq9V57PwkSfhp6HPiiGTHHW0ZYyuQcMnKj5SUEEixzuJLkyxhnQGOaLw1yUuaMMsYp014aGeF3A9YbS5Yxw1xd+47zovwhU1UscPNtiaO4/MfvvLddQ83/tBnVw8FdDvBy8H5mHpGeS/pmVjnY3dfocrtVUjD9GBmmLPnshHYF+yY0FmqFALsaAFjsAD0BjeLhLv2h8BwxOVBRPmAHcX7/3+0uZbdZlTnBfhdnAycSXK/wEmvXr2v2397nbx5ceMaECKANLaQKJrfVtRJ77RjxXMOHxHJk3PkVCWIZizBRqB3HXsfvPKcVxLuxOwuugF/N+sL77rpcpi9GfEAN2NAHZje3fyk3XptFsnjCAscZ02SWyUuMMenWhr6D16TzjoxFEkgdAe0A4ZM0m+X8jocd4+x2xDfe3JP8AQTguhYlmJZibJPUx3ky+VHaLlaQGKEMUe5MvlTbGyPLlcqOnHJyozIzInypOVHRiPWWMceRmRHlSxjjvLk5cOStlRjhBIxy5YxzbPIuMcMJGAksJDadsNEkY0SQ2Nn0N2fTrNUx3W/WIs62xDrT9vSF+3IlW6sRX0kC5G65zNrmxEGtjFxw+okEdOtdpv+1I1EkbmxRFn2PrIHB816VPQRmdno87S/F+HnZh5lIG4io8PsqAdyLruPmdfNlyKtoNVjoADQ9Yni4nRZyWrHc2DqY+ix503K/SqcCw6x7BwvYmpumZSgdtYA33FfbfeZvxSDJbMgFAjfp8yLcqi7tGOEtgFG/pUApRK0CVMZy+I4ytawDdWrVYk0UuoDoLPvJt121ZZKYA1RHUd5mzKQGUfPzObx3jqqVGkHcgizqEL/pxNBTQy+h95Uxqdug2TQdQ7iqkwkuhbYNfQzhr4sxQo4/1V27V7xf9sYfS5+Qeo95U8dTt3GZ2bStLtuRvca4HI+PJjelZVLEg/BE8x+2uKZSdV7g9Zv8A9JEg623rbftKmNlVjlqvf/iccNxXLORXC4bZaJrz6AdkN2CvVqG53nDPBiyyEMt+UggjT23nM8K8cKaMZJYA2rWSUNEbj86USCp+3SdhuK14xZByDW2q0VWA0s1dLHm6kXex6idsseWPruO1sym4VfhWuusxZInl8S0syMWTqAAGJ+xm7eI40VBkOhwv0tdlT0M8/tGr+NBjv5/vLGOZtma0fGQy+tGvvG+YSbYaR3r1m3Y0xy/AnDXUf7QRitQfUkTTGGAbcsCbBobfaWjOCehHbaoXKrnjzvxSYQKY1sentGc/AAjUBV9D2MVfG5O3lJ++0dbnlQo3VR2G8jK3c1Vf4/ky+aLYcNoErcvVwMnC0xAGwmyLkLqLAPUA95ocDkkPYv43lc9e6q/+fLGbt9Ezw/tKbDGxifoTssAJd77jt6ypnE543DX9lOXCXHGAo70PaGlA0CD8R5xHIqMcvRGsoAqu5r3Ew4nikWgoIIHmU9z2qa5QXJhJC5ZO+0knknkxw+HcO7lWSrBADuaA9R2uaZPBeGUHZ/L6MOnzNlx5tNFEJB2JMV4nhcxZSVodwplz+SXpd/4XR+HUADE7Ve7M+/zUZw5eH38gXbei6/brvGkxOFCogrux6weK8PZ00kAe/vIs8uXwavwscuJf3mHHkLA0fO5U/YmN4eMOWy+PT7EA/pFU8LyItI/Xcg+sPHwXEfxKB367xvjzvcFmVHm0FKyELRsJ0v8ASct+GTKQqFb9F2J+07j+HI9HIDqXpM38O0sGxKNQH5jDHx5y+lcbfe3N4fGqNyirENvZG4M6WBXKuHDKo2Vu5m64nJtgt12i3H4OIcAIwXSbAPQwviyt9xrjPpbh/A8YOvI2ruFYgG/nvNX8NwM4bR9tRIP26TVODdlvKqM4HY1Mk4XMrBk0ChVGyKnTjn1BxczxTwfRuoL42JJFkaPQCVw3geNkuwjXuFBsD3nVycPncacgQLf5SekJPDyjKyAkr77H5jvyY+tbRljSOXwBl0FHZuxJoEe/vFsXgeoli6UG8z3770K6z0nEvlYClQV2nIfw3K7ecqEv6V6GO/Jro6uuhDwbGU8pOtHBXzqzMp67gAfaPoTjCctAN6YWA+n1VvXYfp7Q8HDhFIAF7VKOPIST5R2B9JFvkl6VjcpfUL8dn15k0pjRrFnsF9zL4rGp0gqjOSAHNEAX6Vfv1mGPwpg5d2Bv0uHn8OfmK6uaHY9vibjnvdmx/tK04fhHxvauOW1DIuTRprbcEbg9fWM48GMOxTMrg7tjYhmX4b09jOfk8OyNkGoqcfcNe86H7GgBCIqahRYDzV8zXHKz3F45WMfEuFd8ZVCuMkqRkQG9j0K3CHD8SyU7oUoUyY9BPyd6mi4HAUKwoeveMjI2kqb+3SaY5Sa0vnlrtzeJ4DMCOXk5f8Vsz2D3BK1NcaZQADmdgBWq9JP/AA1Ms+PK/k1UvrLXgXC1rO02XjtRcs76lTNwnM0K2Uqcd6Ch0tv6m7m3B49DaS7sQNtbFr+LizeHt1B3HeAnD5NSs7XpPT2k5ePLWviLc73TOTCWyFmU1ppSCav1r1lcNSk2bJ9Zvk4r7RPIbNiRjhfotys0ayY1azW/3mOMBTKxcR2P6yyN7jcdJ9tmbWR7bzDicYJF7n7SO9dJpgF2SIb0zTlSQ+aJIclbjXXcst2i6oZTEieuZZOl2ZBlNAU7QGJl8qxlRALTMXKJMm5VtmNUyZjcy1VCXJ7QnkG29bQS5mbZZk2SNzO4Z1S1+YmHM2xPJudM19bMpi/M09Zs73EuIxFpznly2NwwvFX0MsN7xPBw5EZfGZ1xzrQfMEpmgJhPeU6zXO7LdElM1GZhzUyckybnkMvXRrVMMmaRVNRZ8ZJkXLJzu22PiLMaY7TlHCwNzZS0OWZ3XQUiCzxUBoSiPLP8bdbawJmc4g5cZI2iHIbV3hJnl2LyM8S/pvDwrYg48XrGUWhC8p2ZL9WnDKOtTRsazIqTIQZHvI++kdAJvhAr2mGi+sioRJvhyomNA6bmSXyTJH+HM8T5ImOQSST1bWiVLYySQluxQ65i7y5Js01ickPG8qScMgvI0XLmSSMordDNBJJGUoXk5skkn6lQy7zUPJJOiopmMzLS5IWmgZ5A0qSbbNdcEySRoqAytPpLklYmLgMZUk6EStCBuSSBUzQOYZJJGXQaK0stJJOWPZgdUNGkknphHrkkkmD/2Q==" alt="Burung Perkutut Jawa"/>
+            <img src="https://i.pinimg.com/564x/d3/7a/52/d37a5246bdeffa259b87122437b73b21.jpg" alt="Burung Suara Emas"/>       
+        </div>
+        <div class="isi">
+            <p>
+                Burung <span class="jawa">Perkutut Jawa</span> dengan nama latin <i>Geopelia striata</i> bukan hanya burung yang mampu bersuara, 
+                akan tetapi burung ini mempunyai beragam keunikan yang tidak dimiliki oleh burung lainnya. Bagi sebagian pemelihara burung, dengan hanya melihat perkutut, 
+                sudah bisa memastikan bagaimana suara yang akan dihasilkan.
+                Salah satu kebiasaan dari burung ini adalah terbang dan bertengger di kebun atau ladang. Selain itu, mereka juga sering mencari makan di jalan yang jarang dilintasi oleh manusia </p>
+            <p>
+                Perkutut Jawa  hidup berpasangan atau kelompok kecil. Perkutut jawa makan di permukaan tanah. Kadang mereka berkumpul untuk minum di sumber air.
+                 Sarangnya berbentuk datar tipis dan terbuat dari ranting-ranting. 
+                 Telur berwarna putih, jumlah 2 butir. Perkutut jawa berbiak pada bulan Januari-September. 
+             </p>
+           
+        </div>
+        <div id="profil">
+            
+            <h3>Profil Perkutut Jawa</h3>
+            <a name="profil"/>
+            <ul>
+                <li>Burung perkutut jawa (Geopelia striata) atau dikenal juga sebagai perkutut lokal mempunyai tubuh ramping panjang berukuran sedang, sekitar 20-25 cm, ukuran ekor pendek dengan kepala membulat</li>
+                <li>Burung pemakan biji-bijian ini biasanya dipelihara oleh orang Jawa yang mempunyai sebagai burung kicauan karena suaranya yang khas dan dianggap membawa keberuntungan</li>
+                <li>Burung dengan nama latin Geopelia striata bukan hanya burung yang mampu bersuara, akan tetapi burung ini mempunyai beragam keunikan yang tidak dimiliki oleh burung lainnya.</li>
+                <li>Burung perkutut di alam memakan rerumputan, benih gulma dan serangga. Sehingga, dimungkinkan di alam mempunyai manfaat sebagai pengontrol alami gulma dan serangga.</li>
+            </ul>
+        </div>
+        <div id="beternak">
+            <h3>Cara Berternak Perkutut Jawa</h3>
+            <a name="berternak"/>
+            <ol>
+                <li><h4>Pemilihan Bibit</h4>
+                    <p>
+                        Bibit atau indukan burung perkutut yang akan dibudidayakan haruslah telah berumur ideal yaitu minimal berumur 4 bulan dan sebaiknya betina lebih tua dari jantan. Selain itu pilihlah bibit yang baik agar hasilnya juga baik, berikut ciri-ciri indukan perkutut yang baik
+                    </p>
+                </li>
+                <li><h4>Persiapan Kandang Budidaya</h4>
+                <p>
+                    Kandang yang digunakan untuk budidaya biasanya adalah kandang dengan ukuran tinggi bervariasi antara 45-180 cm, lebar 60 cm, panjang antara 100-180 cm, lantainya terbuat dari pasir atau tanah dan ataonya berupa asbes atau genting.
+                </p></li>
+                <li><h4>Proses Perjodohan</h4>
+                <p>
+                    Untuk menjodohkan burung perkutut ini, pertama masukkan perkutut yang akan dijodohkan ke dalam kandang ternak pada saat sore hari. Nemun perlu diperhatikan sebelum dimasukkan ke dalam kandang ternak kedua perkutut yang akan dijodohkan terlebih dahulu diberikan kacang hijau lunak, minyak ikan, vitamin E dan badannya dibasahi sedikit
+                </p></li>
+                <li><h4>Tahap Pemeliharaan Anakan</h4>
+                <p>
+                    Piyik atau anakan burung yang baru menetas, sebaiknya dipisahkan terlebih dahulu dari induknya jika sudah berumur 1-1,5 bulan. Pada usia tersebut, piyik biasanya sudah bisa makan sendiri. Tempatkan piyik dalam sangkar yang memiliki ukuran sekitar 50 cm x 70 cm x 50 cm dengan dalam satu sangkar diletakkan 8 sampai 10 ekor piyik burung perkutut
+                </p>
+                </li>
+            </ol>
+        </div>
+        <div class="koleksi">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0I9_e52imeQoLIgzRnjQgCR0X6xf48kyyjA&usqp=CAU"/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8Zk8bPYz6eNIR66qHSGTIf12-S7Hwf21PkQ&usqp=CAU"/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReIsjs_sE7mklmi5ovFVhEkTBogXRr_UUKog&usqp=CAU"/>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3IkQHugEJUvOU7cMqXDlPmIat7kS60qS9JQ&usqp=CAU"/>          
+        </div>
+        <div class="promo">
+            <h2>Tertarik untuk budidaya / memelihara Perkutut Jawa?, 
+                <br/>Penawaran Khusus Bagi Anda </h2>
+            <h3>
+                Harga 1 Ekor Perkutut Remaja <del>Rp. 75.000</del> <br/>
+                Sekarang cukup <strong>Rp. 50.000</strong> saja!
+                <br/>
+                <a name="harga"/>
+                Berminat hubung kami di <span id="Wa">WA - 012455588222</span>
+            </h3>
+            <h4>Kami Hadir juga di aplikasi eCommerce:</h4>
+            <ol>
+                <li><a href="tokopedia.com">tokopedia</a></li>
+                <li><a href="bukakapak.com">Bukalapak</a></li>
+                <li><a href="shopee.com">shopee</a></li>
+            </ol>
+        </div>
+
+    </body>
+</html>
